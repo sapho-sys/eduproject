@@ -1,0 +1,39 @@
+.menu__main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .menu__main__item {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid var(--border-grey);
+  }
+  
+  .menu__main__item--active,
+  .menu__main__item:hover {
+    background: white;
+    border-bottom: none;
+    border-right: 1px solid #CFCFCF;
+    border-left: 1px solid #CFCFCF;
+    margin: 0 -1px;
+  }
+  
+  .menu__main__item--current .menu__main__item__link {
+    color: var(--dark-grey);
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.3rem;
+  }
+  
+  .menu__main__item__link {
+    text-decoration: none;
+    color: var(--light-grey);
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+  
+  .menu__main__item__link:hover {
+    text-decoration: underline;
+    color: #1C60BB;
+  }
+  
