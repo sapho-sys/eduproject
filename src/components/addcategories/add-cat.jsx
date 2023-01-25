@@ -1,5 +1,5 @@
 import React from "react";
-import './add-cart';
+import './add-cat';
 
 export default function SubCategories(){
     return (
@@ -23,5 +23,5 @@ export default function SubCategories(){
           </ul>
         </div>
 
-    );
-};
+    )
+}
